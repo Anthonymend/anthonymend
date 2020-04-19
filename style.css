@@ -49,7 +49,7 @@
    position: relative;
    top: 17.0rem; <!-- this changes the hieght position of the rotating logo-->
    z-index: 2;
-   border-radius: .7rem;]
+   border-radius: .7rem;
  }
  #rotating-large-blind{
    background-color: #384357;
@@ -134,9 +134,9 @@ top: .5rem;
    column-span: all;
  }
 
-@media only screen and (max-width: 00px) {
+@media only screen and (max-width: 800px) {
   .image{
-    width: 30%;
+    width: 35%;
     border-radius: 25%;
     border: .4rem solid;
     border-color: black;
@@ -145,7 +145,26 @@ top: .5rem;
     float: left;
     margin: 2rem;
 }
+#rotating-large{
+width: 17.5;
+height:17.5;
+}
+#rotating-large-blind{
+  width: 16.52;
+  height: 16.52;
+}
 
+#rotating-small{
+  width: 15.12;
+  height: 15.12;
+}
+.logo{
+font-size: 3.9
+}
+}
+p{
+  font-size: .8rem;
+  color: white;
 }
 
 </style>
