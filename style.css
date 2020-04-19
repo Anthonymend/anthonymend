@@ -12,6 +12,7 @@
    padding: .6rem;
    font-size: 1.2rem;
    text-align: left;
+   column-span: all;
 
  }
  .navigation a{
@@ -106,14 +107,7 @@
    float: left;
    margin: 2rem;
  }
- .topic-header{
-position: relative;
-top: .5rem;
-   font-size: 4rem;
-   color: white;
-   left: 1rem;
 
- }
  p{
    font-size: 1.2rem;
    color: white;
@@ -137,6 +131,7 @@ top: .5rem;
    font-size: 4rem;
    color: white;
    left: 1rem;
+   column-span: all;
  }
 
 @media only screen and (max-width: 00px) {
@@ -150,6 +145,7 @@ top: .5rem;
     float: left;
     margin: 2rem;
 }
+
 }
 
 </style>
