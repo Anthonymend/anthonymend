@@ -134,7 +134,7 @@ top: .5rem;
    column-span: all;
  }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .image{
     width: 35%;
     border-radius: 25%;
@@ -148,6 +148,7 @@ top: .5rem;
 #rotating-large{
 width: 17.5;
 height:17.5;
+top: 10rem;
 }
 #rotating-large-blind{
   width: 16.52;
@@ -161,10 +162,9 @@ height:17.5;
 .logo{
 font-size: 3.9
 }
-}
 p{
   font-size: .8rem;
   color: white;
 }
-
+}
 </style>
