@@ -139,7 +139,7 @@ top: .5rem;
    left: 1rem;
  }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 00px) {
   .image{
     width: 30%;
     border-radius: 25%;
@@ -149,7 +149,7 @@ top: .5rem;
     position: relative;
     float: left;
     margin: 2rem;
-
+}
 }
 
 </style>
