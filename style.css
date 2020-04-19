@@ -97,16 +97,14 @@
    }
  }
  .image{
-   width: 30%
+   width: 30%;
    border-radius: 25%;
    border: .4rem solid;
    border-color: black;
-   position: relative;
-   top: 2rem;
    display: block;
    margin: 1rem;
-
-
+   position: relative;
+   float: left;
  }
  .topic-header{
 position: relative;
@@ -129,7 +127,12 @@ top: .5rem;
    left:22rem;
    overflow: auto;
    word-wrap:break-word;
-   width: 70%;
+   padding-left: 3rem
+   padding-right:auto;
+   width: 55%;
+   float: left;
+   display: block;
+   margin: 1rem;
 
  }
  .topic-header{
