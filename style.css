@@ -92,7 +92,7 @@
  }
  @keyframes antirotation{
    0% {
-     transform:rotate(0deg);
+     transform:rotate(0);
    }100%
     {transform:rotate(-360deg); <!-- rotates logo view these key frames-->
    }
@@ -146,21 +146,26 @@ top: .5rem;
     margin: 2rem;
 }
 #rotating-large{
-width: 17.5;
-height:17.5;
-top: 10rem;
+width: 17.5rem;
+height:17.5rem;
+top: 8rem;
+
 }
 #rotating-large-blind{
-  width: 16.52;
-  height: 16.52;
+  width: 16.52rem;
+  height: 16.52rem;
+  top: .49rem;
 }
 
 #rotating-small{
-  width: 15.12;
-  height: 15.12;
+  width: 15.12rem;
+  height: 15.12rem;
+  top: 0rem;
+  left: 0rem;
 }
 .logo{
-font-size: 3.9
+font-size: 3.9rem;
+bottom: 6rem;
 }
 p{
   font-size: .8rem;
