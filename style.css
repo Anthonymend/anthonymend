@@ -148,8 +148,19 @@
    border: .4rem solid;
    border-color: black;
  }
-
-
+ #double-div{
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+ }
+#double-image{
+  width: 45%;
+  border-radius: 5%;
+  border: .4rem solid;
+  border-color: black;
+  margin: 0;
+}
  @media only screen and (max-width: 1350px) {
    .info{
      width: 80%;
@@ -161,6 +172,12 @@
  .topic-header{
    margin-left: 10%;
  }
+#double-div{
+  width:80%;
+}
+#double-image{
+  width: 46%;
+}
 }
 @media only screen and (max-width: 600px) {
   .image{
@@ -209,6 +226,12 @@ p{
 }
 .topic-header{
   margin-left: auto;
+}
+#double-div{
+  width:95%;
+}
+#double-image{
+  width: 45%;
 }
 }
 
