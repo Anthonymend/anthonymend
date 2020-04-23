@@ -83,15 +83,11 @@
    color: white;
  }
 
-
- /* tabs */
  .tab {
   overflow: hidden;
 
 
 }
-
-/* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
   float: left;
@@ -105,18 +101,15 @@
 
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
 
 
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
 filter: brightness(200%);
 }
 
-/* Style the tab content */
 .tabcontent {
   display: none;
   border-top: none;
@@ -290,8 +283,8 @@ p{
   width: 45%;
 }
 .tab button{
-  padding: .3rem;
-  font-size: .7rem;
+  padding: .5rem;
+  font-size: 1rem;
 }
 }
 
