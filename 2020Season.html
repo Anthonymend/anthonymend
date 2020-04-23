@@ -1,6 +1,22 @@
 <!doctype html>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
+<script>
+function Subsystem(evt, subsystem) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(subsystem).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("start-open").click();
+</script>
 
 <html>
 <head>
@@ -19,7 +35,18 @@
 <div>
 <h class="topic-header">2020 Robot: Phenoix</h>
 </div>
+<div class="tab subsystem-pos" >
+  <button class="tablinks" onclick="Subsystem(event, 'Overview')" id="defaultOpen">Overview</button>
+  <button class="tablinks" onclick="Subsystem(event,'Shooter')">Shooter</button>
+  <button class="tablinks" onclick="Subsystem(event,'Climber')">Climber</button>
+  <button class="tablinks" onclick="Subsystem(event,'Hopper')">Hopper</button>
+  <button class="tablinks" onclick="Subsystem(event,'Intake')">Intake</button>
 
+
+</div>
+
+
+<div id="Shooter" class="tabcontent">
 <p class="info">  The 2020 season was centered around shooting a 7 inch foam ball into a goal, about the height of a basketball hoop.
 as most games go, the name of the game was speed, quickness. Two extra challanges come allong, climbing a 63 inch rung and a hieght restriction.
 </p>
@@ -34,7 +61,7 @@ as most games go, the name of the game was speed, quickness. Two extra challange
 </p>
   <img src="img/shooter render.PNG" id="image">
 
-<p class="info">  Shooting from any position is possible with the combination of a rotating turret, adjustible shot angle,and changing fly wheel speed.
+<p class="info">  Shooti ng from any position is possible with the combination of a rotating turret, adjustible shot angle,and changing fly wheel speed.
 A large 240 tooth 20dp gear cut from 1/8inch 6061 alluminum on a water jet allowes 360 degree rotation. The gear has an ID of 10 inches allowing blls to pass through.
 With a total gear ratio of 250:1, 180 degree rotation takes a snappy .5 seconds. 24 bearings assisting the roation making this type of speed possible. Minimal torque is needed due to the rotational plane being coplanar with the ground.
 Inertial forces will be the largest contributing factor in slowing acceleration and decceleration. </p>
@@ -47,6 +74,32 @@ Utilizing both the larger pulleys that come with 1/2 hex and the smaller gears t
 <img src="img/hood.PNG" id="double-image" style="float: left; display:block;">
 <img src="img/hood1.PNG" id="double-image" style="float: right; display: block;">
 </div>
+</div>
+
+
+
+<div id="Climber" class="tabcontent">
+<p class="info"> Climber</p>
+</div>
+
+
+
+<div id="Hopper" class="tabcontent">
+<p class="info"> Hopper</p>
+</div>
+
+
+
+<div id="Intake" class="tabcontent">
+<p class="info">Intake</p>
+</div>
+
+
+
+<div id="Overview" class="tabcontent" style="display: block;">
+<p class="info">Overview</p>
+</div>
+
 </body>
 <footer>
 
