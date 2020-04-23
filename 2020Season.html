@@ -51,10 +51,6 @@ document.getElementById("start-open").click();
 as most games go, the name of the game was speed, quickness. Two extra challanges come allong, climbing a 63 inch rung and a hieght restriction.
 </p>
 <p class="info">
-      The robot is allowed to control 5 balls at a time. Inorder to be competative, controlling all five balls at a time is a must. After much protyping we
-  we came up with a crude design. The prototype takes a pile of 5 randomly scattered balls, and organizes them in a streight line.
-</p>
-<p class="info">
     After 3 shooter prototypes and many iterations a single wheeled shooter was an obvious choice. Powered by 2 <a href="https://www.vexrobotics.com/775pro.html" style="color: pink;"> 775 pro motors<a> to
     decrease motor speed and increase torque we added a 2:1 gear ratio with GT2 pulleys. This effectivly decreased our 18,730rpm free speed to 9,365rpm and doubled our troque.
     Our empirical data showed that our speed time for the flywheel decreased, and recovery time per shot was minimal.
@@ -85,7 +81,16 @@ Utilizing both the larger pulleys that come with 1/2 hex and the smaller gears t
 
 
 <div id="Hopper" class="tabcontent">
-<p class="info"> Hopper</p>
+<p class="info">
+  The robot is allowed to control 5 balls at a time. In order to be competitive, controlling all five balls at a time is a must. After much prototyping we came up with a crude design. The prototype takes
+    a pile of 5 randomly scattered balls and organizes them in a straight line. Like all things, speed was key, from hopper to shooter the design averaged 1.6 seconds.
+     There are two systems that move the balls to the shooter, hopper and the feeder. The hopper organizes a stack of balls while the feeder takes those balls and moves them up towards the shooter.  Three brushed DC motors(775 Pro) two in the hopper and one in the feeder move the balls.
+</p>
+<!-- image -->
+<p class="info"> A portion of the hopper is gravity fed. Balls fall on the slope and gravity pushes them to the spinning wheels. An angled piece of 1/8 UHMW is bent into position to assist he process.
+  The UHMW is velcroed into place so that the game pieces cannot interfere with the electronics.
+</p>
+<!-- image -->
 </div>
 
 
