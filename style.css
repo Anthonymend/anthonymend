@@ -273,7 +273,6 @@ p{
   .info{
     text-align: left;
     width: auto;
-
 }
 #image{
   width: 95%;
@@ -289,6 +288,9 @@ p{
 }
 #double-image{
   width: 45%;
+}
+.tab button{
+  padding: .4;
 }
 }
 
