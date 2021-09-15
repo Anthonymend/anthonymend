@@ -10,7 +10,7 @@
    display: block;
    background: #384357;
    padding: .4rem;
-   font-size: 1.25rem;
+   font-size: 1.15rem;
    text-align: left;
    column-span: all;
 
@@ -241,6 +241,9 @@ filter: brightness(200%);
     float: left;
     margin: 2rem;
 }
+
+
+
 #rotating-large{
 width: 17.5rem;
 height:17.5rem;
@@ -290,6 +293,10 @@ p{
   padding: .5rem;
   font-size: 1rem;
 }
+.navigation{
+  font-size: .85rem;
 }
+}
+
 
 </style>
