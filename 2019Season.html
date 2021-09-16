@@ -1,6 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
+<script>
+function Subsystem(evt, subsystem) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(subsystem).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("start-open").click();
+</script>
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -16,12 +33,78 @@
 </head>
 <body>
 <div>
-<h class="topic-header">2019 Robot: Backlash</h>
+<h class="topic-header">2020 Robot: Phenoix</h>
+</div>
+<div class="tab subsystem-pos" >
+  <button class="tablinks" onclick="Subsystem(event, 'Overview')" id="defaultOpen">Overview</button>
+  <button class="tablinks" onclick="Subsystem(event,'Arm')">Arm</button>
+  <button class="tablinks" onclick="Subsystem(event,'Climber')">Climber</button>
+  <button class="tablinks" onclick="Subsystem(event,'Ball Intake')">Ball Intake</button>
+  <button class="tablinks" onclick="Subsystem(event,'Panel Intake')">Panel Intake</button>
+
 
 </div>
-<div>
+
+
+<div id="Panel Intake" class="tabcontent">
+<p class="info">
+</p>
+<p class="info">
+
+</p>
+
+
+<p class="info">
+ </p>
+
+<p class="info">
+
+</P>
+<div id="double-div">
+
+<!--
+<p>The shooter tracks targets using a Lime light. A Lime light is a modified raspberry pie with a 90FPS camera integrated into the module, along with bright green LED lights. Using a less processor intesive tracking method than machine learning. Filtering is applied to the image to single out
+  bright reflective tape.
+</p>
+-->
+</div>
+</div>
+
+
+
+<div id="Climber" class="tabcontent">
+<p class="info"> Climber</p>
 
 </div>
+
+
+
+<div id="Arm" class="tabcontent">
+<p class="info">
+
+</p>
+<!-- image -->
+<p class="info">
+</p>
+<!-- image -->
+</div>
+
+
+
+<div id="Ball Intake" class="tabcontent">
+<p class="info">
+</p>
+</div>
+
+
+
+<div id="Overview" class="tabcontent" style="display: block;">
+
+<p class="info">
+</p>
+
+</div>
+
 </body>
 <footer>
 
