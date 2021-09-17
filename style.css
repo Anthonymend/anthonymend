@@ -185,6 +185,7 @@ filter: brightness(200%);
    font-size: 1.5rem;
    color: yellow;
    margin-left: 25%;
+   padding-left: 1rem;
    column-span: all;
  }
  .status-notifier{
@@ -192,7 +193,6 @@ filter: brightness(200%);
    top: .5rem;
    font-size: 1.5rem;
    color: white;
-
    column-span: all;
  }
  .subsystem-pos{
@@ -202,8 +202,8 @@ filter: brightness(200%);
    margin-left: auto;
    margin-right: auto;
    width: 50% ;
-   padding-left:2rem;
-   padding-right: 2rem;
+   padding-left:1rem;
+   padding-right: 1rem;
  }
  #image{
    display: block;
@@ -227,7 +227,7 @@ filter: brightness(200%);
   border-color: black;
   margin: 0;
 }
- @media only screen and (max-width: 1350px) {
+ @media only screen and (max-width: 1100px) {
    .info{
      width: 80%;
    }
@@ -265,6 +265,7 @@ filter: brightness(200%);
 
 .status{
   margin-left: auto;
+  padding-left: 1.5rem:
 }
 
 #rotating-large{
