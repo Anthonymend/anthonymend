@@ -37,8 +37,8 @@
  body{
    margin: 0;
    background-color: #384357;
-   5891a6
    /*
+   5891a6
 old--384357
    */
  }
@@ -183,7 +183,6 @@ filter: brightness(200%);
  .status{
    position: relative;
    top: .5rem;
-   margin-bottom: 2rem;
    font-size: 1.5rem;
    color: yellow;
    margin-left: 25%;
@@ -195,7 +194,6 @@ filter: brightness(200%);
    top: .5rem;
    font-size: 1.5rem;
    color: white;
-   margin-bottom: 2rem;
    column-span: all;
  }
  .subsystem-pos{
