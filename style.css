@@ -38,9 +38,9 @@
    margin: 0;
    background-color: #384357;
    5891a6
-   <!--
+   /*
 old--384357
-   -->
+   */
  }
 
  #rotating-large{
@@ -143,7 +143,7 @@ filter: brightness(200%);
  }
  .image{
    width: 20%;
-   border-radius: 25%;
+   border-radius: 1rem;
    border: .4rem solid;
    border-color: black;
    display: inline-block;
@@ -163,6 +163,7 @@ filter: brightness(200%);
    overflow: auto;
    word-wrap:break-word;
    padding-right:auto;
+   padding-top: 1.5rem;
    width: 90%;
    float: left;
    display: inline-block;
@@ -182,6 +183,7 @@ filter: brightness(200%);
  .status{
    position: relative;
    top: .5rem;
+   margin-bottom: 2rem;
    font-size: 1.5rem;
    color: yellow;
    margin-left: 25%;
@@ -193,6 +195,7 @@ filter: brightness(200%);
    top: .5rem;
    font-size: 1.5rem;
    color: white;
+   margin-bottom: 2rem;
    column-span: all;
  }
  .subsystem-pos{
@@ -210,7 +213,7 @@ filter: brightness(200%);
    margin-left: auto;
    margin-right: auto;
    width: 50%;
-   border-radius: 5%;
+   border-radius: 1rem;
    border: .4rem solid;
    border-color: black;
  }
@@ -254,18 +257,21 @@ filter: brightness(200%);
 @media only screen and (max-width: 700px) {
   .image{
     width: 35%;
-    border-radius: 25%;
     border: .4rem solid;
     border-color: black;
     display: inline-block;
     position: relative;
     float: left;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .status{
   margin-left: auto;
-  padding-left: 1.5rem:
+  padding-left: 1.5rem;
+font-size: 1.25rem;
+}
+.status-notifier{
+  font-size: 1.25rem;
 }
 
 #rotating-large{
@@ -291,7 +297,7 @@ font-size: 3.9rem;
 bottom: 6rem;
 }
 p{
-  font-size: .8rem;
+  font-size: 1rem;
   color: white;
 }
   .info{
@@ -299,10 +305,14 @@ p{
     width: auto;
 }
 #image{
-  width: 95%;
+
+  width: 90%;
+
+
 }
 .topic-header{
   margin-left: auto;
+  font-size: 2.5rem;
 }
 .subsystem-pos{
   margin-left: auto;
