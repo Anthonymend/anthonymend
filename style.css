@@ -174,9 +174,25 @@ filter: brightness(200%);
    top: .5rem;
    font-size: 4rem;
    color: white;
-   left: 1rem;
+   left: 2rem;
    margin-left: 25%;
-   padding: 0;
+
+   column-span: all;
+ }
+ .status{
+   position: relative;
+   top: .5rem;
+   font-size: 1.5rem;
+   color: yellow;
+   margin-left: 25%;
+   column-span: all;
+ }
+ .status-notifier{
+   position: relative;
+   top: .5rem;
+   font-size: 1.5rem;
+   color: white;
+
    column-span: all;
  }
  .subsystem-pos{
