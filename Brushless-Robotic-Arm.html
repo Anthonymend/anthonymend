@@ -13,6 +13,15 @@
   <a href="programing.html">Programing</a>
   <a href="aboutMe.html" class="right">About Me</a>
 </div>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8C39Z80ZZK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8C39Z80ZZK');
+</script>
 </head>
 <body>
 <div>
@@ -22,10 +31,14 @@
 <h class="status-notifier">LEGACY </h>
 </div>
 <div>
+  <p class="info">
+    Goal: Create a 5-axis robotic arm powered buy brushless motors, and stepper motors. The first two joints in the arm are brushless due to the higher power density (power/volume). Closer to the end effector the arm changes to stepper motors.This arm was purely a challenge and will not be manufactured. Click <a href="http://anthonymend.com/RoboticArm.html" style="color: pink;">here<a> to check out a more cost-effective arm.
+  </p>
   <img src="img/BrushlessArm2.png" id ="image">
-  <p class="info">Info coming soon</p>
+  <p class="info">The two joints powered by brushless motors are cable driven, this was done to eliminate backlash from the final stage reduction (For more info on cable drives click <a href="https://www.youtube.com/watch?v=jKZIvseA1Nk&t=3550s" style="color: pink;">here<a>). Prior to the Cable driven output belts are heavily leveraged to further limit backlash. The first stage reductions are geared. Gears are generally not suitable for limiting backlash, but the reduction limits that slop by reducing it in the later stages. The brushless motors free speed at 14.8V is 13024 rpm, with a stall torque of 1.088. The lower elbow joint is running on a 77.8:1 gear ratio. This gives us a stall torque output of 84.6 N/m and at full speed 90 degrees can be traveled in roughly .1s. The joint at the top of the image, is powered by the same motor and is controlled by a 54:1 gear ratio.</p>
   <img src="img/BrushlessArm3.png" id ="image">
 </div>
+
 </body>
 <footer>
 </footer>
